@@ -27,7 +27,7 @@ function Hello4() {
   document.getElementById("P3").classList.toggle("p3");
   document.getElementById("P3").classList.add("p2");
 
-  setTimeout(Hello5, 1300);
+  setTimeout(Hello5, 1500);
 }
 
 function Hello5() {
