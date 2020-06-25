@@ -13,7 +13,7 @@ function Hello2() {
   document.getElementById("P1").classList.toggle("p1");
   document.getElementById("P1").classList.add("p2");
 
-  setTimeout(Hello3, 900);
+  setTimeout(Hello3, 1300);
 }
 
 function Hello3() {
@@ -22,7 +22,7 @@ function Hello3() {
   document.getElementById("P2").classList.toggle("p1");
   document.getElementById("P2").classList.add("p2");
 
-  setTimeout(Hello4, 900);
+  setTimeout(Hello4, 1300);
 }
 
 function Hello4() {
