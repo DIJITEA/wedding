@@ -125,12 +125,12 @@
 .pcon {
     position: absolute;
     top: 100%;
-    width: 100%;
+    width: 96%;
     text-align: left;
     font-size: 3vh;
     font-family: "GothamSSm-XLight";
     color: rgb(255, 255, 255);
-    left: 53%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     -moz-transition: all 300ms;
