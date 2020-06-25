@@ -3,6 +3,10 @@ function Hello() {
   document.getElementById("Gborder").classList.toggle("gborder1");
   document.getElementById("Gborder").classList.add("gborder2");
 
+  document.getElementById("SVGF1").style.opacity = 1;
+  document.getElementById("SVGF2").style.opacity = 1;
+  document.getElementById("SVGF3").style.opacity = 1;
+  document.getElementById("SVGF4").style.opacity = 1;
   setTimeout(Hello2, 300);
 }
 function Hello2() {
