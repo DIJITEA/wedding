@@ -23,38 +23,40 @@ function Hello3() {
 
 function Hello4() {
   document.getElementById("P2").style.opacity = -0;
+  document.getElementById("Gborder").classList.toggle("gborder2");
+  document.getElementById("Gborder").classList.add("gborder3");
 
-  document.getElementById("P3").classList.toggle("p3");
-  document.getElementById("P3").classList.add("p2");
-
-  setTimeout(Hello5, 1500);
+  setTimeout(Hello5, 100);
 }
 
 function Hello5() {
-  document.getElementById("P3").style.opacity = -0;
-  document.getElementById("P4").classList.toggle("p4");
-  document.getElementById("P4").classList.add("p2");
+   
+   document.getElementById("P3").classList.toggle("p1");
+   document.getElementById("P3").classList.add("p2");
 
-  setTimeout(Hello6, 900);
+ setTimeout(Hello6, 900);
 }
 function Hello6() {
-  document.getElementById("P4").classList.toggle("p2");
-  document.getElementById("P4").classList.toggle("p4");
-
-  document.getElementById("P5").classList.toggle("p4");
-  document.getElementById("P5").classList.add("p2");
-
-  setTimeout(Hello7, 300);
+  document.getElementById("SVG").classList.toggle("svgi0");
+  document.getElementById("SVG").classList.add("svgi");
+  // setTimeout(Hello7, 300);
+}
+function Conb(){
+  document.getElementById("P3").classList.toggle("p2");
+  document.getElementById("P3").classList.toggle("p1");
+  document.getElementById("P4").classList.toggle("p1");
+  document.getElementById("P4").classList.toggle("pcon");
 }
 
-function Hello7(){
-    document.getElementById("P5").classList.toggle("p2");
-    document.getElementById("P5").classList.add("p4");
 
-    setTimeout(Hello8, 900);
-}
+// function Hello7(){
+//     document.getElementById("P5").classList.toggle("p2");
+//     document.getElementById("P5").classList.add("p4");
 
-function Hello8(){
-    document.getElementById("P6").classList.toggle("p1");
-    document.getElementById("P6").classList.add("p2");
-}
+//     setTimeout(Hello8, 900);
+// }
+
+// function Hello8(){
+//     document.getElementById("P6").classList.toggle("p1");
+//     document.getElementById("P6").classList.add("p2");
+// }
